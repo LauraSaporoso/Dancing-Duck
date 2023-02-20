@@ -1,0 +1,68 @@
+/* Prova duck  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.container-home {
+    margin-top: 100px;
+}
+
+.duck-container {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.duck {
+    max-width: 100%;
+    border: 8px solid #c56970;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.duck-animated {
+    display: none;
+}
+
+.dance .duck-animated {
+    display: block;
+}
+
+.dance .duck-static {
+    display: none;
+}
+
+#dance-button {
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    font-weight: 500;
+    border: 4px solid #c56970;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    transform: scale(1);
+    transition: all 0.3s ease 0s;
+}
+
+#dance-button:hover {
+    background-color: white;
+    transition: all 0.3s ease 0s;
+    transform: scale(1.1);
+}
